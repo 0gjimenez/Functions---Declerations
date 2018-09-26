@@ -9,17 +9,20 @@
 
 // (1) First Task
 // Declare a function named double() which outputs a number double the input number.
-
-
-
+function double(a){
+let total = a*2
+return total/1
+}
 
 
 
 
 // (2) Second Task
 // Declare a function named plusplus() which outputs a number one higher than the input number.
-
-
+function plusplus(a,b){
+let total = a<b
+return total/2
+}
 
 
 
@@ -38,9 +41,10 @@
 // (4) Fourth Task
 // Declare a function named pthagorean() which has two inputs you guessed it a and b.
 // The function outputs the value of the third side of the right triangle.
-
-
-
+function pthagorean(a,b){
+let total = a+b
+return total/2
+}
 
 
 
@@ -48,8 +52,9 @@
 // (5) Fifth Task
 // Declare a function named circleArea() which has one input named radius.
 // The function outputs the area of the circle.
-
-
+function circleArea(radius){
+let total = radius = 3.14 
+return total radius
 
 
 
