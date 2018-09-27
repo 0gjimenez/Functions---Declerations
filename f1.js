@@ -11,7 +11,7 @@
 // Declare a function named double() which outputs a number double the input number.
 function double(a){
 let total = a*2
-return total/1
+return total
 }
 
 
@@ -19,9 +19,9 @@ return total/1
 
 // (2) Second Task
 // Declare a function named plusplus() which outputs a number one higher than the input number.
-function plusplus(a,b){
-let total = a<b
-return total/2
+function plusplus(b){
+let total = b + 1
+return total
 }
 
 
@@ -31,8 +31,9 @@ return total/2
 
 // (3) Third Task
 // Declare a function named oppRecip() which outputs the opposite reciprocal of the input number.
-
-
+function oppRecip(!4){
+return !4
+}
 
 
 
@@ -41,9 +42,9 @@ return total/2
 // (4) Fourth Task
 // Declare a function named pthagorean() which has two inputs you guessed it a and b.
 // The function outputs the value of the third side of the right triangle.
-function pthagorean(a,b){
-let total = a+b
-return total/2
+function pythagorean(a,b){
+let c = a*a + b*b
+return Math.sqrt(c)
 }
 
 
@@ -53,8 +54,8 @@ return total/2
 // Declare a function named circleArea() which has one input named radius.
 // The function outputs the area of the circle.
 function circleArea(radius){
-let total = radius = 3.14 
-return total radius
+let Pie = 3.14*radius 
+return Math.PI(Pie)
 
 
 
@@ -63,8 +64,9 @@ return total radius
 // (6) Sixth Task
 // Declare a function named boxVolume() which has three inputs: length, width, and depth.
 // The function outputs the volume of the box;
-
-
+function boxvolume(length, width, and depth)
+let volume = length * width * depth
+return volume
 
 
 
@@ -77,9 +79,10 @@ return total radius
 // (7) Seventh Task
 // Declare a function named thisIsMadness() which accepts one string input named city.
 // The function should output the string: "No! This is <city>!!"
-
-
-
+function thisIsMadness("city"){
+let words = "No! This is <city>!!"
+return words
+}
 
 
 
@@ -87,9 +90,10 @@ return total radius
 // (8) Eigth Task
 // Declare a function named yo() which accepts one string input named fam.
 // The function should output the string: "yo <fam>!  What's good <fam>??"
-
-
-
+function yo("fam"){
+let friend = "yo <fam>! What's good <fam>??"
+return friend
+}
 
 
 
@@ -97,8 +101,10 @@ return total radius
 // (9) Ninth Task
 // Declare a function named beefDay() which has no inputs.
 // This function should output a long string, IN ALL CAPS, of "BEEF DAY" with lots of extra E's, F's, A's, and Y's
-
-
+function beefDay(){
+let Thursday = "BEEF DAY"
+return Thursday 
+}
 
 
 
@@ -111,7 +117,8 @@ return total radius
 // (10) Tenth Task
 // Declare a function named xor() which has two inputs a and b.
 // This function returns the exclusive or of the two boolean inputs.
-
+xor(a,b){}
+return (a || b)
 
 
 
